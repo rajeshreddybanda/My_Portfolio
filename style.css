@@ -50,13 +50,13 @@ body {
     border-radius: 30px;
     font-weight: bold;
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease;
 }
 
 .btn:hover {
     transform: translateY(-3px);
     box-shadow: 0 6px 14px rgba(0,0,0,0.25);
-    background: linear-gradient(135deg, #2575fc, #6a11cb);
+    background: linear-gradient(#2575fc, #6a11cb);
 }
 
 section {
@@ -71,12 +71,12 @@ section h2 {
 }
 
 .about {
-    background: linear-gradient(135deg, #4eabb2, #3f9fa5);
+    background: linear-gradient(135deg, #77d0d6, #3f9fa5);
     color: white;
 }
 
 .experience {
-    background: linear-gradient(135deg, #ffecd2, #fcb69f);
+    background: linear-gradient(135deg, #96daca, #fcb69f);
 }
 
 .projects {
