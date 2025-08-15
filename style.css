@@ -7,62 +7,61 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f8f9fa;
+    background: linear-gradient(#d6a69a, #feb47b);
     color: #333;
+    min-height: 100vh; /* Always full screen height */
 }
 
 .container {
     width: 90%;
     max-width: 1100px;
     margin: auto;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 .hero {
-    background: linear-gradient(135deg, #ff7e5f, #feb47b);
-    color: white;
+    background: linear-gradient(#8abddc, #316d81);
+    color:Black;
     text-align: center;
-    padding: 80px 20px;
+    padding: 5px 5px; 
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 
 .hero h1 {
-    font-size: 3rem;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    font-size: 2rem;
+    margin-bottom: 5px;
 }
 
 .subtitle {
-    font-size: 1.3rem;
-    margin: 15px 0 30px;
+    font-size: 1rem;
+    margin: 5px 0 10px;
 }
 
 .btn-group {
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 .btn {
     display: inline-block;
-    padding: 12px 28px;
-    margin: 8px;
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    padding: 8px 20px;
+    margin: 4px;
+    background: linear-gradient(#6a11cb, #2575fc);
     color: white;
-    text-decoration: none;
+    text-decoration: solid;
     border-radius: 30px;
     font-weight: bold;
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-    transition: transform 0.3s ease;
 }
 
 .btn:hover {
-    transform: translateY(-3px);
     box-shadow: 0 6px 14px rgba(0,0,0,0.25);
     background: linear-gradient(#2575fc, #6a11cb);
 }
 
 section {
     padding: 50px 0;
+    min-height: calc(100vh - 120px);
 }
-
 section h2 {
     font-size: 2rem;
     margin-bottom: 20px;
@@ -71,28 +70,28 @@ section h2 {
 }
 
 .about {
-    background: linear-gradient(135deg, #77d0d6, #3f9fa5);
-    color: white;
+    background: linear-gradient(#77d0d6, #3f9fa5);
+    color: black;
 }
 
 .experience {
-    background: linear-gradient(135deg, #96daca, #fcb69f);
+    background: linear-gradient(#84fab0, #8fd3f4);
 }
 
 .projects {
-    background: linear-gradient(135deg, #c3cfe2, #c3e7ff);
+    background: linear-gradient(#84fab0, #8fd3f4);
 }
 
 .skills {
-    background: linear-gradient(135deg, #fddb92, #d1fdff);
+    background: linear-gradient(#84fab0, #8fd3f4);
 }
 
 .education {
-    background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+    background: linear-gradient(#84fab0, #8fd3f4);
 }
 
 .contact {
-    background: linear-gradient(135deg, #84fab0, #8fd3f4);
+    background: linear-gradient(#84fab0, #8fd3f4);
 }
 
 section ul {
